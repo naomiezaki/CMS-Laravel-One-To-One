@@ -37,6 +37,9 @@ Route::get('/', function () {
         public function address(){
             return $this->hasOne('App\Address');
         }
+    
+    //Step 5: Add code to app/Address.php
+        protected $fillable = ['name'];
 */
     //Route:
     //I. Creating Data:
